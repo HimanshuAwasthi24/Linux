@@ -20,3 +20,11 @@ userdel username //Deletes the users but directory remains
 userdel -r username //Deletes with directories as well(-r recursive)
 userdel -f username // deletes user even he is logged(-f forceful)
 ```
+
+#Modify
+```bash
+usermod -G groupName Username \\Added user to new group without changing his default group
+usermod -g groupname username \\Added user to new group with changing his default group
+usermod -L username \\ user locked
+usermod -U username \\ user unlocked
+```

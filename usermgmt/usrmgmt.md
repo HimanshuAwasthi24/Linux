@@ -6,6 +6,7 @@
 - With options
 ```bash
 useradd -g QA -s /bin/bash -c "Part of QA" -m -d /home/victor UserName
+passwd UserName
 ```
 *Flags explanation:*
 ` -g ` group name 
@@ -30,3 +31,11 @@ usermod -U username //user unlocked
 ```
 
 # Groups
+```bash
+groupadd groupname
+```
+
+## Some Important files
+1. /etc/passwd -> Users details
+2. /etc/group -> Group Details
+3. /etc/shadow -> More about users(Password last changed, Hashed passwd,  etc)

@@ -17,6 +17,6 @@ useradd -g QA -s /bin/bash -c "Part of QA" -m -d /home/victor UserName
 # Delete User
 ```bash
 userdel username //Deletes the users but directory remains
-userdel -r username //Deletes with directories as well
-userdel -f username // deletes user even he is logged
+userdel -r username //Deletes with directories as well(-r recursive)
+userdel -f username // deletes user even he is logged(-f forceful)
 ```

@@ -1,5 +1,5 @@
 # Definition
-![Image](LVM/image.png) <br>
+![Image](image.png) <br>
 
 Logically partitioning of a drive or mount in different mounting points or combining multiple disks into 1 mounting group. <br>
 *Example:* Let's we have 1 TB storage in our laptop, Then we assign some amount of storage to root,some /etc and some to /home.

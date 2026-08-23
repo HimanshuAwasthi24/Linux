@@ -49,7 +49,7 @@ mkdir /folderName //on which the lv is going to be mounted
 mount /dev/volumeGroupName/lvname /folderName //mounted volume to the folder temporarely
 df -Th //check files mounting 
 cat /etc/mtab // check for the mounting locations
-vi /etc/fstab // pate the lines copied from mtab and make defaults to make the mouinting parmanent
+vi /etc/fstab // paste the lines copied from mtab and make defaults to make the mouinting parmanent
 mount -av //check for mountings
 ```
 ### extending volumes from LV

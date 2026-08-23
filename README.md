@@ -8,4 +8,6 @@ Covered almost everything about Linux <br>
 3. [Package Management](packagemgmt/)
 4. [su & sudo](su%26sudo/)
 5. [User Management](usermgmt/)
+5. [umask](umask/)
+5. [Logical volume manager](LVM/)
 

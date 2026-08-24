@@ -10,5 +10,5 @@ Covered almost everything about Linux <br>
 5. [User Management](usermgmt/)
 6. [umask](umask/)
 7. [Logical volume manager](LVM/)
-8. [netstat](netsat/)
+8. [netstat](netstat/)
 
